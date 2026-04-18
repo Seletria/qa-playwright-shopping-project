@@ -4,7 +4,7 @@ test('Post to verify login with valid details', async ({ request }) => {
   const response = await request.post('https://automationexercise.com/api/createAccount', {
     form: {
       name: 'Mahmut',
-      email: 'mahmut129@gmail.com',
+      email: 'mahmut322@gmail.com',
       password: '1234567',
       title: 'Mr',
       birth_date: '12',
@@ -31,7 +31,7 @@ test('Post to verify login with valid details', async ({ request }) => {
 test('Delete to verify login with valid details', async ({ request }) => {
   const response = await request.delete('https://automationexercise.com/api/deleteAccount', {
     form: {
-      email: 'mahmut123@gmail.com',
+      email: 'mahmut322@gmail.com',
       password: 1234567
     }
   })
